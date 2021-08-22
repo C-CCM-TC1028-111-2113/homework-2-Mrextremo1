@@ -31,16 +31,16 @@ def main():
                 z = num2
     elif num3 < num2:
         x = num1
-        y = num2
+        y = num2 
         z = num3
     else:
         x = num1
         y = num3
         z = num2
     
-    print(x)
-    print(y)
     print(z)
+    print(y)
+    print(x)
 
 
 if __name__=='__main__':
