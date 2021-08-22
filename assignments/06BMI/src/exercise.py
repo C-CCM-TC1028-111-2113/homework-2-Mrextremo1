@@ -11,9 +11,9 @@ def main():
         x = "PESO BAJO"
     elif indice >= 20 and indice < 25:
         x = "NORMAL"
-    elif indice <= 25 and indice < 30:
+    elif indice >= 25 and indice < 30:
         x = "SOBREPESO"
-    elif indice <= 30 and indice < 40:
+    elif indice >= 30 and indice < 40:
         x = "OBESIDAD"
     else:
         x = "OBESIDAD MORBIDA"
