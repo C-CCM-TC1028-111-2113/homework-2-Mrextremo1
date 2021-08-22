@@ -6,7 +6,7 @@ def main():
     indice = peso/(altura**2)
 
     if peso <= 0 or altura <= 0:
-        x = "Revisa tus datos, alguno de ellos es erróneo"
+        x = "Revisa tus datos, alguno de ellos es erróneo."
     elif indice < 20 and indice > 1:
         x = "PESO BAJO"
     elif indice >= 20 and indice < 25:
